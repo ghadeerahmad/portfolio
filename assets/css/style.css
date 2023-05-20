@@ -28,8 +28,6 @@ body,
     display: grid;
     align-items: center;
     height: 100vh;
-    animation: fadeInDown;
-    animation-duration: 1s;
 }
 
 .name-big {
@@ -124,4 +122,9 @@ li a.active {
 .fadeUp {
     animation: fadeInUp;
     animation-duration: 2s;
+}
+
+.fadeDown {
+    animation: fadeInDown;
+    animation-duration: 1s;
 }
