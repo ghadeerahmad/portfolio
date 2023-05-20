@@ -4,6 +4,10 @@
         scroll-behavior: smooth;
     }
 
+    .profile-card {
+        margin-top: 75px;
+    }
+
     .profile-card img {
         position: absolute;
         top: -75px;
@@ -16,6 +20,9 @@
     .section {
         height: 100vh;
         scroll-snap-align: start;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
     }
 
     .reverse {

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'harmony';
-    src: url('assets/fonts/harmony.otf');
+    src: url('/assets/fonts/harmony.otf');
 }
 
 
@@ -44,6 +44,9 @@ body,
     top: 0;
     bottom: 0;
     display: flex;
+    z-index: 99999;
+    background-color: #1f1b24;
+    width: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -62,6 +65,7 @@ body,
     text-decoration: none;
     color: #fff;
     transition: color .25s ease-in-out;
+    font-size: 10pt;
 }
 
 
@@ -75,7 +79,6 @@ li a.active {
     padding: 75px 20px;
     border-radius: 10px;
     position: relative;
-    height: 100%;
 }
 
 .profile-card img {
@@ -92,7 +95,7 @@ li a.active {
 .profile-card p {
     display: flex;
     justify-content: space-around;
-    font-size: 14pt;
+
 }
 
 .profile-card p span {
