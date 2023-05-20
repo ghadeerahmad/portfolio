@@ -3,10 +3,7 @@
     src: url('assets/fonts/harmony.otf');
 }
 
-html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-}
+
 
 * {
     font-family: 'harmony';
@@ -24,10 +21,8 @@ body,
 }
 
 .section {
-    scroll-snap-align: start;
     display: grid;
     align-items: center;
-    height: 100vh;
 }
 
 .name-big {
@@ -88,12 +83,10 @@ li a.active {
     height: 150px;
     border-radius: 100%;
     border: 3px solid #1f1b24;
-    margin-bottom: 10px;
-    position: absolute;
-    top: -75px;
-    right: 0;
-    left: 0;
+    align-self: center;
+    display: flex;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .profile-card p {
@@ -127,4 +120,8 @@ li a.active {
 .fadeDown {
     animation: fadeInDown;
     animation-duration: 1s;
+}
+
+.reverse {
+    flex-direction: column-reverse;
 }
