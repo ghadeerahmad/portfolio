@@ -23,6 +23,7 @@ body,
 .section {
     display: grid;
     align-items: center;
+    position: relative;
 }
 
 .name-big {
