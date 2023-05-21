@@ -15,6 +15,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/responsive.css" rel="stylesheet" />
+    <link href="./assets/css/slider.css" rel="stylesheet" />
+    <link href="./assets/css/animation.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -25,8 +27,8 @@
         </ul>
     </nav>
     <!-- first section -->
-    <section id="home" class="container section" data-aos="fade-down">
-        <div class="row reverse">
+    <section id="home" class="container section grid">
+        <div class="row reverse" data-aos="fade-down">
             <div class="col-md-8">
                 <h1 class="name-big">Who am i?</h1>
                 <div class="bio">
@@ -59,14 +61,30 @@
         </div>
     </section>
     <!-- projects section -->
-    <section id="projects" class="container section" data-aos="fade-up">
-        <div class="container">projects section is coming soon</div>
+    <section id="projects" class="container section">
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="slider">
+                <button type="button" class="btn-next" onclick="nextSlide()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="slide active">
+                    <h1>project 1</h1>
+                </div>
+                <div class="slide">
+                    <h1>project 2</h1>
+                </div>
+                <div class="slide">
+                    <h1>project </h1>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <script src="assets/js/scroll-spy.js"></script>
+    <script src="assets/js/slider.js"></script>
 </body>
 
 </html>

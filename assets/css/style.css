@@ -21,9 +21,13 @@ body,
 }
 
 .section {
+
+    position: relative;
+}
+
+.grid {
     display: grid;
     align-items: center;
-    position: relative;
 }
 
 .name-big {

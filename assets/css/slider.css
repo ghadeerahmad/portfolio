@@ -1,0 +1,32 @@
+.slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    transition: .5s ease-in-out;
+    position: absolute;
+    text-align: center;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slider .btn-next {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    font-size: 25pt;
+    z-index: 100;
+}
