@@ -133,3 +133,14 @@ li a.active {
 .reverse {
     flex-direction: column-reverse;
 }
+
+.project-image {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px #1f1b24 solid;
+}
+
+.project-desc p {
+    font-size: 17px;
+
+}
