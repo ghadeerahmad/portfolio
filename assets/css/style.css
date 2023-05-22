@@ -3,7 +3,9 @@
     src: url('/assets/fonts/harmony.otf');
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     font-family: 'harmony';
