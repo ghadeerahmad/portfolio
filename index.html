@@ -22,8 +22,9 @@
 <body>
     <nav class="nav-bar" id="navbar">
         <ul>
-            <li><a class="nav-link active" href="#home">Home</a></li>
-            <li><a class="nav-link" href="#projects">projects</a></li>
+            <li><a class="nav-link active" href="#home">About</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
         </ul>
     </nav>
     <!-- first section -->
@@ -58,6 +59,44 @@
                     <p><i class="fa-solid fa-envelope"></i><span>ghadeer.95.ah@gmail.com</span></p>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- experience section -->
+    <section id="experience" class="container section" style="padding:25px 30px">
+        <h1>My Experience</h1>
+        <ul class="tabs">
+            <li class="tab-link"><a href="#tab1" onclick="activateTab(0)">Qtech Group</a></li>
+            <li class="tab-link"><a href="#tab2" onclick="activateTab(1)">FutureCode</a></li>
+            <li class="tab-link"><a href="#tab3" onclick="activateTab(2)">Wardeh Tech</a></li>
+        </ul>
+        <div class="tab-item active" id="tab1">
+            <h4>May 2021-Dec 2021</h4>
+            <p>
+                I worked as full-stack and mobile developer and finished projects like a mobile app
+                similar to open souq and full stack dashboard to manage stocks for cham capital company.
+                i worked on laravel and flutter during my time at this company
+            </p>
+        </div>
+        <div class="tab-item" id="tab2">
+            <h4>Feb 2022-March 2023</h4>
+            <p>
+                At this company i worked as full-stack and mobile developer, then i focused on backend developement
+                and finihed projects like: 2 chat apps,courses app like udemy,e-commerce apps.
+
+            </p>
+            <p>
+                Also, i worked as team leader to manage and lead the team during the development,
+                and we followed agile methodology through our work and we have done great job.
+            </p>
+        </div>
+        <div class="tab-item" id="tab3">
+            <h4>Jan 2023-March 2023</h4>
+            <p>
+                I worked with this company for 3 month on e-commerce project as a backend developer.
+            </p>
+            <p>
+                The techniques i used at this project are nodejs with mongodb
+            </p>
         </div>
     </section>
     <!-- projects section -->
@@ -127,6 +166,7 @@
     </script>
     <script src="assets/js/scroll-spy.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script src="assets/js/tabs.js"></script>
 </body>
 
 </html>

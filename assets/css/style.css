@@ -146,3 +146,34 @@ li a.active {
     font-size: 17px;
 
 }
+
+.tabs {
+    list-style: none;
+    display: block;
+    padding: 20px 0;
+}
+
+.tabs li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.tabs li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all .25s ease;
+}
+
+.tabs li a:hover {
+    color: #66616d;
+}
+
+.tab-item {
+    display: none;
+    padding: 20px 0;
+    transition: display 1s ease-out;
+}
+
+.tab-item.active {
+    display: block;
+}
